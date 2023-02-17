@@ -49,7 +49,6 @@ public class PlayerSelection : MonoBehaviour
 
     public void NextSelection()
     {
-        Debug.Log(currentIndex);
         if(currentIndex > 5)
         {
             nextButton.SetActive(false);
