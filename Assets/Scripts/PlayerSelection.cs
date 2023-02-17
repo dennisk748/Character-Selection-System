@@ -40,11 +40,11 @@ public class PlayerSelection : MonoBehaviour
         gameObjects[currentIndex].SetActive(true);
         nameText.text = "Name : " + playerData[currentIndex].name;
         weightText.text = "Weight : " + playerData[currentIndex].weight.ToString();
-        weightText.text = "Strength : " + playerData[currentIndex].strength.ToString();
-        weightText.text = "Breath : " + playerData[currentIndex].breath;
-        weightText.text = "Flight : " + playerData[currentIndex].flight.ToString();
-        weightText.text = "Damage : " + playerData[currentIndex].damage.ToString();
-        weightText.text = "Speed : " + playerData[currentIndex].speed.ToString();
+        strengthText.text = "Strength : " + playerData[currentIndex].strength.ToString();
+        breathText.text = "Breath : " + playerData[currentIndex].breath;
+        flightText.text = "Flight : " + playerData[currentIndex].flight;
+        damageText.text = "Damage : " + playerData[currentIndex].damage.ToString();
+        speedText.text = "Speed : " + playerData[currentIndex].speed.ToString();
     }
 
     public void NextSelection()
